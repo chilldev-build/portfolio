@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+a:hover {
+	/* border-bottom-color: transparent; */
+	transform: scale(1.2); 
+}
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -166,7 +172,8 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			/* border-bottom-color: transparent; */
+			transform: scale(1.2); 
 		}
 
 	strong, b {
